@@ -13,7 +13,7 @@ class ApiService {
     const apiURL = 'https://api.api-ninjas.com/v1/quotes?category=';
     final response = await http.get(
       Uri.parse(apiURL + category),
-      headers: {'X-Api-Key': 'hLNwH+ZEK1VLGJLM2s9vlw==PFTXCCCr3nFIgBZt'},
+      headers: {'X-Api-Key': 'cOS/GInJk89Vj5Hih9Hnqg==m0tGawFq3SR5UI9C'},
     );
 
     if (response.statusCode == 200) {
